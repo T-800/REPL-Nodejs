@@ -1,6 +1,6 @@
 module.exports =
 cmd=atom.config.get('Repl.ocaml')
-prompt='>>>'
+prompt=''
 //until they fix OCAML syntax
 args=['-noprompt']
 endSequence=';;\n'
